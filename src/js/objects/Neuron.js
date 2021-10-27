@@ -11,9 +11,8 @@ class Neuron {
   }
 
   /**
-   *
+   * Sigmoid Function
    * @param {number} sum
-   * @returns sum <= 0 ? 1 : -1
    */
   f = (sum) => 1 / (1 + Math.exp(-sum));
 
